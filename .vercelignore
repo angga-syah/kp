@@ -1,0 +1,39 @@
+# Dependencies
+node_modules
+/supabase
+# Dev & debug
+*.log
+*.local
+.env*.local
+
+# Testing
+coverage
+.nyc_output
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.spec.tsx
+
+# Misc scripts
+insert-post.mjs
+seed*.mjs
+seed*.js
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode
+.idea
+*.swp
+/script
+.git
+.claude
+.vercel
+.next
+README.md
+.env.example
+.env.local
+AGENTS.md
+CLAUDE.md

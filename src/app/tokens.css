@@ -1,0 +1,48 @@
+:root {
+  color-scheme: light;
+
+  --color-paper: oklch(96.5% 0.014 95);
+  --color-paper-2: oklch(93% 0.022 100);
+  --color-surface: oklch(99% 0.006 95);
+  --color-rule: oklch(86% 0.022 100);
+  --color-muted: oklch(44% 0.028 150);
+  --color-neutral: oklch(50% 0.024 150);
+  --color-ink: oklch(22% 0.03 155);
+
+  --color-brand: oklch(38% 0.09 155);
+  --color-brand-2: oklch(32% 0.078 155);
+  --color-brand-deep: oklch(25% 0.058 155);
+  --color-on-brand: oklch(97% 0.014 95);
+  --color-on-brand-muted: oklch(82% 0.035 130);
+
+  --color-gold: oklch(79% 0.13 85);
+  --color-gold-ink: oklch(46% 0.10 80);
+  --color-focus: oklch(52% 0.13 85);
+  --color-error: oklch(46% 0.17 25);
+  --color-error-light: oklch(80% 0.11 25);
+
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-body: var(--font-geist-sans), ui-sans-serif, sans-serif;
+
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.25rem;
+  --text-xl: 2rem;
+  --text-display-s: clamp(2.25rem, 3.6vw + 1rem, 3.75rem);
+
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.875rem;
+  --radius-pill: 999px;
+  --rule-w: 1px;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-short: 150ms;
+}
